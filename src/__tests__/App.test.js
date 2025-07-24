@@ -3,4 +3,8 @@ import App from "../App";
 
 import '@testing-library/jest-dom';
 
-// Code tests here
+test('renders pizza toppings heading', () => {
+  render(<App />);
+  const headingElement = screen.getByText(/select pizza toppings/i);
+  expect(headingElement).toBeInTheDocument();
+});

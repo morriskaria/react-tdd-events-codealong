@@ -1,7 +1,10 @@
+// src/App.js
 function App() {
   return (
-    <div></div>
-  )
+    <div>
+      <h1>Select Pizza Toppings</h1>
+    </div>
+  );
 }
 
 export default App;
